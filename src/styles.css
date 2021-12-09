@@ -2,3 +2,22 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.students {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.student {
+  width: 25%;
+  margin: 1%;
+  border: 1px solid gray;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 3%;
+  background-color: "red";
+}
+
+.name {
+  font-size: 18pt;
+}
